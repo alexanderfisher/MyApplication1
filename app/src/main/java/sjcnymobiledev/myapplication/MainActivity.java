@@ -34,6 +34,21 @@ public class MainActivity extends ActionBarActivity {
                         .show();
             }
         });
+        final Button button69 = (Button) findViewById(R.id.button69);
+        button69.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                new AlertDialog.Builder(MainActivity.this)
+                        .setTitle("WTF")
+                        .setMessage("Why didn't you listen :'(")
+                        .setPositiveButton(android.R.string.ok,new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.cancel();
+                            }
+                        })
+                        .show();
+            }
+        });
 
     }
 
