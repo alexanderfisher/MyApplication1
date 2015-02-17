@@ -50,6 +50,22 @@ public class MainActivity extends ActionBarActivity {
             }
         });
 
+        final Button button007 = (Button) findViewById(R.id.button007);
+        button007.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                new AlertDialog.Builder(MainActivity.this)
+                        .setTitle("LWYR UP")
+                        .setMessage("Better Call Saul")
+                        .setPositiveButton(android.R.string.ok,new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.cancel();
+                            }
+                        })
+                        .show();
+            }
+        });
+
     }
 
 

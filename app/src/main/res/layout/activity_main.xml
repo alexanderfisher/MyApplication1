@@ -41,4 +41,14 @@
         android:layout_alignEnd="@+id/button1"
         android:layout_marginTop="83dp" />
 
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="007"
+        android:id="@+id/button007"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/progressBar2"
+        android:layout_toEndOf="@+id/progressBar2" />
+
 </RelativeLayout>
